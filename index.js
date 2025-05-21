@@ -14,7 +14,14 @@ const flavors = input.split(",").map(flavor => flavor.trim().toLowerCase());
 //goal3
 const flavorCounts = {};
 for (let i = 0; i < flovors.length; i ++){
-    
+    let flavor = flavors[i];
+
+    if (flovorCounts[flavor]){
+        flavorCounts[flavor] += 1;
+    }
+    else {
+        flavorCounts[flavor] = 1;
+    }
 }
   
 
