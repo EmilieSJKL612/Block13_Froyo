@@ -33,19 +33,19 @@ Please submit the link to your public GitHub repository.
 
 
 ## Em's learning note:
-A. break down the prompt/requirements into tiny goals easy enough to code (Divide-Conquer-Glue)
-B. Goals: 1. prompt user to input flovaors  2. convert input into array  3. count each flavor's appearance  4. output to browser console
-C. For goal 2:
-  1. use the .map() method learning in Block 14 (to create a new array by applying a function to each element of the original array)
+### A. break down the prompt/requirements into tiny goals easy enough to code (Divide-Conquer-Glue)
+### B. Goals: 1. prompt user to input flovaors  2. convert input into array  3. count each flavor's appearance  4. output to browser console
+### C. For goal 2:
+  #### 1. use the .map() method learning in Block 14 (to create a new array by applying a function to each element of the original array)
      -> so that I don't have to: for (let i = 0; i < flavors.length; i++) {...}, which makes the code a bit complex/messy
-  2. how to split user's input strings into comma-seperated form (user's prompted to input comma-spearated flavors in goal 1 already)
+  #### 2. how to split user's input strings into comma-seperated form (user's prompted to input comma-spearated flavors in goal 1 already)
      -> https://www.w3schools.com/jsref/jsref_split.asp
-  3. user input with space(s) before/after ?
+  #### 3. user input with space(s) before/after ?
      -> https://www.w3schools.com/jsref/jsref_trim_string.asp
-  4. user input case sensitive?
+  #### 4. user input case sensitive?
      -> https://www.w3schools.com/jsref/jsref_tolowercase.asp
-  5. Easise to look up syntax this way: in W3Schools, on the left panel, select "JS Strings" and there lists all the methods available for Strings 
-D. For goal 3:
+  #### 5. Easier to look up syntax this way: in W3Schools, on the left panel, select "JS Strings" and there lists all the methods available for Strings 
+### D. For goal 3:
   Added else to fix the "undefined" results/errors after testing -- this ensures that new flavors will not be skipped (I hope!)
 
 
