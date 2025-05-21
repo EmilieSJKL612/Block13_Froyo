@@ -36,7 +36,7 @@ Please submit the link to your public GitHub repository.
 ### A. break down the prompt/requirements into tiny goals easy enough to code (Divide-Conquer-Glue)
 ### B. Goals: 1. prompt user to input flavors  2. convert input into array  3. count each flavor's appearance  4. output to browser console
 ### C. For goal 2:
-  #### 1. use the .map() method learning in Block 14 (to create a new array by applying a function to each element of the original array)
+  #### 1. use the .map() method learned in Block 14 (to create a new array by applying a function to each element of the original array)
      -> so that I don't have to: for (let i = 0; i < flavors.length; i++) {...}, which makes the code a bit complex/messy
   #### 2. how to split user's input strings into comma-seperated form (user's prompted to input comma-spearated flavors in goal 1 already)
      -> https://www.w3schools.com/jsref/jsref_split.asp
