@@ -34,7 +34,7 @@ Please submit the link to your public GitHub repository.
 
 ## Em's learning note:
 ### A. break down the prompt/requirements into tiny goals easy enough to code (Divide-Conquer-Glue)
-### B. Goals: 1. prompt user to input flovaors  2. convert input into array  3. count each flavor's appearance  4. output to browser console
+### B. Goals: 1. prompt user to input flavors  2. convert input into array  3. count each flavor's appearance  4. output to browser console
 ### C. For goal 2:
   #### 1. use the .map() method learning in Block 14 (to create a new array by applying a function to each element of the original array)
      -> so that I don't have to: for (let i = 0; i < flavors.length; i++) {...}, which makes the code a bit complex/messy
